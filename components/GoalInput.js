@@ -5,9 +5,6 @@ function GoalInput(props) {
   const [enteredGoalText, setEnteredGoalText] = useState("");
 
   function goalInputHandler(enteredText) {
-    if (enteredText === "") {
-      return;
-    }
     setEnteredGoalText(enteredText);
   }
 
